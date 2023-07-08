@@ -1,0 +1,20 @@
+# theme.yaml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes for an example
+
+name: Vollgas
+license: MIT
+licenselink: https://github.com/VollgasDev/vollgas-website/blob/main/LICENSE
+description: vollgas.net Hugo theme
+homepage: https://vollgas.net/
+tags: []
+features: []
+min_version: 0.112.0
+
+author:
+  name: Christopher Kauffman
+  homepage: https://ckauffman.vollgas.net
+# If porting an existing theme
+# original:
+#   name:
+#   homepage:
+#   repo:
