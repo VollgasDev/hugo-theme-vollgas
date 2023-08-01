@@ -9,24 +9,22 @@
 ></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<div class="container">
-  <header
-    class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+<header
+  class="container d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+>
+  <a
+    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+    href="#"
   >
-    <a
-      class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-      href="#"
-    >
-      <img alt="Brand" height="50" src="/images/vollgas_logo.png" />
-      <span class="fs-4">{{ .Site.Title }}</span>
-    </a>
-    <ul class="nav nav-pills">
-      <!-- <li class="nav-link"><a href="/index.html">Home</a></li>
-            <li class="nav-link"><a href="/sites/index.html">Sites</a></li>
-            <li class="nav-link"><a href="https://stats.uptimerobot.com/PQY9xs4DBy" target="_blank">Status</a></li> -->
-      {{- range site.Menus.main }}
-      <li class="nav-link"><a href="{{ .URL }}">{{ .Name }}</a></li>
-      {{- end }}
-    </ul>
-  </header>
-</div>
+    <img alt="Brand" height="50" src="/images/vollgas_logo.png" />
+    <span class="fs-4">{{ .Site.Title }}</span>
+  </a>
+  <ul class="nav nav-pills">
+    <!-- <li class="nav-link"><a href="/index.html">Home</a></li>
+          <li class="nav-link"><a href="/sites/index.html">Sites</a></li>
+          <li class="nav-link"><a href="https://stats.uptimerobot.com/PQY9xs4DBy" target="_blank">Status</a></li> -->
+    {{- range site.Menus.main }}
+    <li class="nav-link"><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{- end }}
+  </ul>
+</header>

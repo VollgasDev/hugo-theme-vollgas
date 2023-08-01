@@ -7,8 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- footer-detail for ease of adding simple content to standard footer
+
 ### Changed
 
+- changed to standard Bootstrap v5 header, main, footer
 - updated archetypes
 - removed SVGs
 
