@@ -1,13 +1,11 @@
-<footer class="container mt-auto py-3 border-top">
-  <div class="row">
-    <div class="col-md-4">
-      <a href="/" class="">
-        <img alt="Brand" height="30" src="/images/vollgas_logo.png" />
-      </a>
-      <span class="">&copy; {{ .Site.Copyright }}</span>
-    </div>
-    <div class="col-md-8 text-end">{{- partial "footer-detail.html" . -}}</div>
-  </div>
+<footer class="container d-flex flex-wrap mt-auto py-1 border-top">
+  <span class="d-flex align-items-center mb-3 me-md-auto text-body-secondary">
+    <a href="/" class="text-decoration-none">
+      <img alt="Brand" height="30" src="/images/vollgas_logo.png" />
+    </a>
+    &copy; {{ .Site.Copyright }}
+  </span>
+  {{- partial "footer-detail.html" . -}}
 </footer>
 
 <!-- Optional JavaScript -->
