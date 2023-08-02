@@ -20,11 +20,14 @@
     <span class="fs-4">{{ .Site.Title }}</span>
   </a>
   <ul class="nav nav-pills">
-    <!-- <li class="nav-link"><a href="/index.html">Home</a></li>
-          <li class="nav-link"><a href="/sites/index.html">Sites</a></li>
-          <li class="nav-link"><a href="https://stats.uptimerobot.com/PQY9xs4DBy" target="_blank">Status</a></li> -->
-    {{- range site.Menus.main }}
-    <li class="nav-link"><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{- $currentPage := . }} {{- range site.Menus.main }}
+    <li class="nav-item">
+      <a
+        href="{{ .URL }}"
+        class="nav-link{{- if $currentPage.IsMenuCurrent .Menu . }} active{{- end }}"
+        >{{ .Name }}</a
+      >
+    </li>
     {{- end }}
   </ul>
 </header>
