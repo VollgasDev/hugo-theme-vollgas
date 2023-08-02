@@ -17,6 +17,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - updated archetypes
 - removed SVGs
 
+### Fixed
+
+- error page URL for "head back home"
+
 ## [0.0.1] - 2023-07-08
 
 ### Added
