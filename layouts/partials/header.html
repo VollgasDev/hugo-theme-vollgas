@@ -9,25 +9,38 @@
 ></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header
-  class="container d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
->
-  <a
-    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-    href="#"
-  >
-    <img alt="Brand" height="50" src="/images/vollgas_logo.png" />
-    <span class="fs-4">{{ .Site.Title }}</span>
-  </a>
-  <ul class="nav nav-pills">
-    {{- $currentPage := . }} {{- range site.Menus.main }}
-    <li class="nav-item">
-      <a
-        href="{{ .URL }}"
-        class="nav-link{{- if $currentPage.IsMenuCurrent .Menu . }} active{{- end }}"
-        >{{ .Name }}</a
+<header class="container py-3 mb-4 border-bottom">
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" height="50" src="/images/vollgas_logo.png" />
+        <span class="fs-4">{{ .Site.Title }}</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapseMain"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-    </li>
-    {{- end }}
-  </ul>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapseMain">
+        <ul class="navbar-nav ms-auto">
+          {{- $currentPage := . }} {{- $currentSection := .Site.GetPage
+          $currentPage.Section }} {{- range site.Menus.main }}
+          <li class="nav-item">
+            <a
+              href="{{ .URL }}"
+              class='{{- if $currentSection.IsMenuCurrent "main" . }}nav-link active{{- else }}nav-link{{- end }}'
+              >{{ .Name }}</a
+            >
+          </li>
+          {{- end }}
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>
