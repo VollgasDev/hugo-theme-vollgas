@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- custom color scheme
 - footer-detail for ease of adding simple content to standard footer
 
 ### Changed
