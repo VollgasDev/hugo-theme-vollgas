@@ -11,6 +11,9 @@ project_name := hugo-theme-vollgas
 hugo_output_dir := public
 WORKING_DIRS := ${hugo_output_dir} tmp
 
+.PHONY: build
+build: lint prettier
+
 .PHONY: init
 init: ${WORKING_DIRS}
 
