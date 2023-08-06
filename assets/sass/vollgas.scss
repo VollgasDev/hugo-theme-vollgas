@@ -1,22 +1,18 @@
 // Required
-@import "../../../../node_modules/bootstrap/scss/functions";
 
 // https://getbootstrap.com/docs/5.3/customize/color/
-// Default variable overrides
-// $body-bg: #000;
-// $body-color: #111;
-$body: #393b38;
-$emphasis: #ed6232;
+$body-color: #393b38;
+// $emphasis-color: #ed6232;
+// $primary-color: #ed6232;
+// $secondary-color: #785c3a;
+// $tertiary-color: #cfbcbd;
 $primary: #ed6232;
 $secondary: #785c3a;
-$tertiary: #cfbcbd;
+// $success: $green !default;
+// $info: $cyan !default;
+// $warning: $yellow !default;
+// $danger: $red !default;
+$light: #CFBCBD;
+$dark: #393b38;
 
-// Required
-@import "../../../../node_modules/bootstrap/scss/variables";
-@import "../../../../node_modules/bootstrap/scss/variables-dark";
-@import "../../../../node_modules/bootstrap/scss/maps";
-@import "../../../../node_modules/bootstrap/scss/mixins";
-@import "../../../../node_modules/bootstrap/scss/root";
-
-// This doesn't work
-$nav-link-active-color: #ed6232;
+@import "bootstrap/bootstrap";
