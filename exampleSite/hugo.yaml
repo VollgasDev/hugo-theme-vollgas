@@ -1,0 +1,25 @@
+---
+# baseURL: http://vollgas.net/
+languageCode: en-us
+title: Vollgas Theme Example Site
+themesDir: "../../"
+theme: hugo-theme-vollgas
+copyright: 2023 vollgas.net
+# Using `uglyURLs: true` to build URLs compatible with Cloudfront
+uglyURLs: false
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Things
+      pageRef: /things
+      weight: 20
+    - name: Google
+      url: https://google.com
+      weight: 30
+
+params:
+  gtmId: GTM-REPLACE
+  vpixelAppId: 9999
