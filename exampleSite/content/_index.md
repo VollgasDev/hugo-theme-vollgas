@@ -13,8 +13,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Tortor dignissim convallis aenean et tortor at risus. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Senectus et netus et malesuada. Habitant morbi tristique senectus et. Facilisis volutpat est velit egestas dui id ornare arcu odio. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Pellentesque id nibh tortor id. Cras fermentum odio eu feugiat pretium. Sit amet mattis vulputate enim nulla aliquet. Volutpat blandit aliquam etiam erat velit scelerisque. Ac orci phasellus egestas tellus rutrum tellus. Nunc mattis enim ut tellus elementum sagittis. Ornare arcu dui vivamus arcu. Nam libero justo laoreet sit. Amet aliquam id diam maecenas. Elit scelerisque mauris pellentesque pulvinar pellentesque. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Turpis egestas pretium aenean pharetra magna ac placerat. Eu feugiat pretium nibh ipsum.
 
-| Color         | Code    |
-| ------------- | ------- |
+| Color         | Code                         |
+| ------------- | ---------------------------- |
 | White         | {{< colorBlock "#FFFFFF" >}} |
 | Pale Dogwood  | {{< colorBlock "#CFBCBD" >}} |
 | Giants Orange | {{< colorBlock "#ED6232" >}} |
