@@ -1,6 +1,6 @@
 # hugo-theme-vollgas makefile
 #
-# Setup basic hugo theme
+# Vollgas Theme
 #
 # To-Do:
 #   * none
@@ -11,11 +11,12 @@ project_name := hugo-theme-vollgas
 hugo_output_dir := public
 WORKING_DIRS := ${hugo_output_dir} tmp
 
-.PHONY: build
-build: lint prettier
-
 .PHONY: init
 init: ${WORKING_DIRS}
+
+.PHONY: build
+build: lint prettier
+	hugo -D
 
 .PHONY: prettier
 prettier:
@@ -23,7 +24,7 @@ prettier:
 
 .PHONY: dev
 dev:
-	brew install --quiet hugo prettier yamllint
+	brew install --quiet awscli hugo prettier yamllint
 
 .PHONY: lint
 lint:

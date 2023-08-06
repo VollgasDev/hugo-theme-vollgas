@@ -11,9 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - custom color scheme
 - footer-detail for ease of adding simple content to standard footer
+- example site
+- Makefile
 
 ### Changed
 
+- storing bootstrap sass assets like bootstrap-bp-hugo-theme
 - changed to standard Bootstrap v5 header, main, footer
 - updated archetypes
 - removed SVGs
