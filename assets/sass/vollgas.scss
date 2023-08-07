@@ -1,18 +1,29 @@
 // Required
 
+$white: #ffffffff;
+$isabelline: #f3efefff;
+$platinum: #e7dedeff;
+$pale-dogwood: #cfbcbdff;
+$salmon: #de8f78ff;
+$giants-orange: #ed6232ff;
+$brown-sugar: #b35f36ff;
+$coyote: #785c3aff;
+$walnut-brown: #594c39ff;
+$black-olive: #393b38ff;
+
 // https://getbootstrap.com/docs/5.3/customize/color/
-$body-color: #393b38;
+$body-color: $black-olive;
 // $emphasis-color: #ed6232;
 // $primary-color: #ed6232;
 // $secondary-color: #785c3a;
 // $tertiary-color: #cfbcbd;
-$primary: #ed6232;
-$secondary: #785c3a;
+$primary: $giants-orange;
+$secondary: $coyote;
 // $success: $green !default;
 // $info: $cyan !default;
 // $warning: $yellow !default;
 // $danger: $red !default;
-$light: #cfbcbd;
-$dark: #393b38;
+$light: $pale-dogwood;
+$dark: $black-olive;
 
 @import "bootstrap/bootstrap";
