@@ -25,7 +25,6 @@ prettier:
 .PHONY: dev
 dev:
 	brew install --quiet awscli hugo prettier yamllint
-	npm install
 
 .PHONY: lint
 lint:
