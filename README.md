@@ -2,6 +2,14 @@
 
 A Basic Hugo Theme for Vollgas Websites
 
+Add to project using:
+
+`git submodule add git@github.com:VollgasDev/hugo-theme-vollgas.git themes/vollgas`
+
+Update to latest version in a projest with:
+
+`git submodule update --remote`
+
 ## Current Colors
 
 Generated at [Coolers](https://coolors.co/ffffff-cfbcbd-ed6232-785c3a-393b38)
