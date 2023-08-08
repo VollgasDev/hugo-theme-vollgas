@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - using relative link for sass
+- updated 404 ref to home page
 
 ## [1.1.0] - 2023-08-07
 
