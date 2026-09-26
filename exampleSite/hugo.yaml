@@ -1,6 +1,6 @@
 ---
 # baseURL: http://vollgas.net/
-languageCode: en-us
+locale: en-us
 title: Vollgas Theme Example Site
 themesDir: "../../"
 theme: hugo-theme-vollgas
